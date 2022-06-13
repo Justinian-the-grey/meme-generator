@@ -1,14 +1,12 @@
 import './App.css'
 import Navbar from './components/navbar/Navbar'
-import Meme from './components/form/Meme'
-import memesData from './memeData'
+import Meme from './components/meme/Meme'
 
 function App() {
-  const memes = memesData.data.memes
   return (
     <div className='App'>
       <Navbar />
-      <Meme data={memes} />
+      <Meme />
     </div>
   )
 }
